@@ -2,7 +2,7 @@ package com.is;
 
 public class Instructions {
     void afisare(){
-        System.out.println("Hello world");
+        System.out.println("o");
     }
 
     void info(){
