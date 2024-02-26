@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Test test = new Test(10);
+
         Scanner scanner = new Scanner(System.in);
         Instructions instructions = new Instructions();
 
         while (true) {
-            System.out.println("Introduceți un string ('hello', 'info', 'exit'): ");
+            System.out.println("Introduceti un string ('hello', 'info', 'exit'): ");
 
             String input = scanner.nextLine();
 
@@ -25,7 +27,7 @@ public class Main {
         }
 
         scanner.close();
-        
+
         instructions.afisare();
         instructions.info();
 
