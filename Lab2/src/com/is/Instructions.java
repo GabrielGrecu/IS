@@ -5,6 +5,8 @@ public class Instructions {
         System.out.println("o");
     }
 
+    
+
     void info(){
         System.out.println("Facultatea de automatica si calculatoare");
         System.out.println("Laboratoare Java");
